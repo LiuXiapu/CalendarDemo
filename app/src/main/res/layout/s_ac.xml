@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical|center_horizontal"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_average"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:background="@drawable/bg_average_calendar"
+        android:gravity="center"
+        android:text="公历"
+        android:textColor="#0071ff"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_lunar"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:background="@drawable/bg_lunar_calendar"
+        android:gravity="center"
+        android:text="农历"
+        android:textColor="#0071ff"
+        android:textSize="10sp"/>
+
+</LinearLayout>
